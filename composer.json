@@ -1,0 +1,5 @@
+{
+    "require": {
+        "pleonasm/bloom-filter": "^1.0"
+    }
+}

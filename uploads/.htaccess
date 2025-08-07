@@ -1,0 +1,9 @@
+# Disable PHP execution
+<FilesMatch "\.(php|php[345]|phtml|phar)$">
+  Require all denied
+</FilesMatch>
+
+# Turn off PHP engine just in case
+<IfModule mod_php7.c>
+  php_flag engine off
+</IfModule>

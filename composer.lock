@@ -1,0 +1,70 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8c85701775aa7ee7bc72fca5f9cc7ac7",
+    "packages": [
+        {
+            "name": "pleonasm/bloom-filter",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pleonasm/bloom-filter.git",
+                "reference": "57c8cf69148fea2327dcf96b21ce50df7ede1dfc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pleonasm/bloom-filter/zipball/57c8cf69148fea2327dcf96b21ce50df7ede1dfc",
+                "reference": "57c8cf69148fea2327dcf96b21ce50df7ede1dfc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.0",
+                "phpunit/phpunit": "^6.5 || ^7.5 || ^8.5 || ^9.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pleo\\BloomFilter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew Nagi",
+                    "email": "matthew.nagi@base-2.net"
+                }
+            ],
+            "description": "A pure PHP implementation of a Bloom Filter",
+            "keywords": [
+                "Bloom Filter",
+                "bloom",
+                "filter",
+                "sets"
+            ],
+            "support": {
+                "email": "matthew.nagi@base-2.net",
+                "issues": "https://github.com/pleonasm/bloom-filter/issues",
+                "source": "https://github.com/pleonasm/bloom-filter/tree/1.0.3"
+            },
+            "time": "2022-05-02T23:00:47+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

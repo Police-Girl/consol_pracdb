@@ -1,0 +1,60 @@
+{
+    "packages": [
+        {
+            "name": "pleonasm/bloom-filter",
+            "version": "1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pleonasm/bloom-filter.git",
+                "reference": "57c8cf69148fea2327dcf96b21ce50df7ede1dfc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pleonasm/bloom-filter/zipball/57c8cf69148fea2327dcf96b21ce50df7ede1dfc",
+                "reference": "57c8cf69148fea2327dcf96b21ce50df7ede1dfc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.0",
+                "phpunit/phpunit": "^6.5 || ^7.5 || ^8.5 || ^9.4"
+            },
+            "time": "2022-05-02T23:00:47+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Pleo\\BloomFilter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew Nagi",
+                    "email": "matthew.nagi@base-2.net"
+                }
+            ],
+            "description": "A pure PHP implementation of a Bloom Filter",
+            "keywords": [
+                "Bloom Filter",
+                "bloom",
+                "filter",
+                "sets"
+            ],
+            "support": {
+                "email": "matthew.nagi@base-2.net",
+                "issues": "https://github.com/pleonasm/bloom-filter/issues",
+                "source": "https://github.com/pleonasm/bloom-filter/tree/1.0.3"
+            },
+            "install-path": "../pleonasm/bloom-filter"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
